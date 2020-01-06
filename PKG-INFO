@@ -1,0 +1,48 @@
+Metadata-Version: 1.0
+Name: PySnarl
+Version: 1.0.2
+Summary: A Snarl binding for Python
+Home-page: http://code.google.com/p/pysnarl/
+Author: Sam Listopad II
+Author-email: samlii@users.sourceforge.net
+License: Apache License, Version 2.0
+Download-URL: http://code.google.com/p/pysnarl/downloads/list
+Description: 
+        A Python extension exposing the main functions of the Snarl API.
+        
+        Usage
+        
+        This module can be used in two ways. One is the normal way the other interfaces work. This means you can call snShowMessage and get an ID back for manipulations.
+        
+        The other way is there is a class this module exposes called SnarlMessage. This allows you to keep track of the message as a python object. If you use the send without specifying False as the argument it will set the ID to what the return of the last SendMessage was. This is of course only useful for the SHOW message.
+        
+        Requirements
+        
+        * pywin32 extensions from PyWin32
+        * ctypes from ctypes (Also included in Python 2.5 and up)
+        
+Platform: MS Windows
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: Environment :: Plugins
+Classifier: Environment :: Win32 (MS Windows)
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Natural Language :: English
+Classifier: Operating System :: Microsoft
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: Python
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: System
+Classifier: Topic :: System :: Distributed Computing
+Classifier: Topic :: System :: Logging
+Classifier: Topic :: System :: Monitoring
+Classifier: Topic :: System :: Networking
+Classifier: Topic :: System :: Networking :: Monitoring
+Classifier: Topic :: System :: Networking :: Monitoring :: Hardware Watchdog
+Classifier: Topic :: Utilities
